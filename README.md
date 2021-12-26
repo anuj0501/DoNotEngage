@@ -1,3 +1,7 @@
+# What is this for?
+For you guys to learn and understand the code structure and implement the things on this repo.
+Thanks. 🙂😁
+
 # DSC-AKGEC-Website
 Rules - 
 1. Everyone will have to push their code to their own branches before pushing it onto the main branches. 
