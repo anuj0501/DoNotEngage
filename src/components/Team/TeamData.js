@@ -52,7 +52,7 @@ export const TeamData = [
   },
   {
     id: 2,
-    year: 3,
+    year: 4,
     domain: 3,
     cardName: "Anshika Bajpai",
     cardDesignation: "App Development",
@@ -66,7 +66,7 @@ export const TeamData = [
   },
   {
     id: 3,
-    year: 3,
+    year: 4,
     domain: 2,
     cardName: "Apoorv Jain",
     cardDesignation: "Machine Learning",
@@ -80,7 +80,7 @@ export const TeamData = [
   },
   {
     id: 4,
-    year: 3,
+    year: 4,
     domain: 4,
     cardName: "Ayushi Bansal",
     cardDesignation: "Managerial",
@@ -94,7 +94,7 @@ export const TeamData = [
   },
   {
     id: 5,
-    year: 3,
+    year: 4,
     domain: 1,
     cardName: "Himani Chauhan",
     cardDesignation: "Web Development",
@@ -108,7 +108,7 @@ export const TeamData = [
   },
   {
     id: 6,
-    year: 3,
+    year: 4,
     domain: 1,
     cardName: "Hitesh Tripathi",
     cardDesignation: "Web Development",
@@ -122,7 +122,7 @@ export const TeamData = [
   },
   {
     id: 7,
-    year: 3,
+    year: 4,
     domain: 1,
     cardName: "Krishna Agarwal",
     cardDesignation: "Web Development",
@@ -136,7 +136,7 @@ export const TeamData = [
   },
   {
     id: 8,
-    year: 3,
+    year: 4,
     domain: 2,
     cardName: "Nihal MB Choudhary",
     cardDesignation: "Machine Learning",
@@ -150,7 +150,7 @@ export const TeamData = [
   },
   {
     id: 9,
-    year: 3,
+    year: 4,
     domain: 4,
     cardName: "Pranjal Maurya",
     cardDesignation: "Managerial",
@@ -164,7 +164,7 @@ export const TeamData = [
   },
   {
     id: 10,
-    year: 3,
+    year: 4,
     domain: 2,
     cardName: "Pranjul Itondia",
     cardDesignation: "Machine Learning",
@@ -179,7 +179,7 @@ export const TeamData = [
 
   {
     id: 11,
-    year: 3,
+    year: 4,
     domain: 3,
     cardName: "Rishabh Singh",
     cardDesignation: "App Development",
@@ -193,7 +193,7 @@ export const TeamData = [
   },
   {
     id: 12,
-    year: 3,
+    year: 4,
     domain: 4,
     cardName: "Shatakshi Upadhyay",
     cardDesignation: "Managerial",
@@ -207,7 +207,7 @@ export const TeamData = [
   },
   {
     id: 13,
-    year: 3,
+    year: 4,
     domain: 1,
     cardName: "Shivam Bisht",
     cardDesignation: "Web Development",
@@ -221,7 +221,7 @@ export const TeamData = [
   },
   {
     id: 14,
-    year: 3,
+    year: 4,
     domain: 4,
     cardName: "Shubh Shah",
     cardDesignation: "Managerial",
@@ -235,7 +235,7 @@ export const TeamData = [
   },
   {
     id: 15,
-    year: 3,
+    year: 4,
     domain: 2,
     cardName: "Tarun Raghav",
     cardDesignation: "Machine Learning",
@@ -250,7 +250,7 @@ export const TeamData = [
 
   {
     id: 16,
-    year: 3,
+    year: 4,
     domain: 1,
     cardName: "Vishesh Dhawan",
     cardDesignation: "Web Development",
@@ -264,7 +264,7 @@ export const TeamData = [
   },
   {
     id: 17,
-    year: 3,
+    year: 4,
     domain: 2,
     cardName: "Vishesh Kushwaha",
     cardDesignation: "Machine Learning",
@@ -279,7 +279,7 @@ export const TeamData = [
 
   {
     id: 18,
-    year: 2,
+    year: 3,
     domain: 1,
     cardName: "Aagiya Singh",
     cardDesignation: "Web Development",
@@ -293,7 +293,7 @@ export const TeamData = [
   },
   {
     id: 19,
-    year: 2,
+    year: 3,
     domain: 1,
     cardName: "Aashima Saxena",
     cardDesignation: "Web Development",
@@ -308,7 +308,7 @@ export const TeamData = [
 
   {
     id: 20,
-    year: 2,
+    year: 3,
     domain: 3,
     cardName: "Adnan Ali",
     cardDesignation: "App Development",
@@ -322,7 +322,7 @@ export const TeamData = [
   },
   {
     id: 21,
-    year: 2,
+    year: 3,
     domain: 1,
     cardName: "Anuj Negi",
     cardDesignation: "Web Development",
@@ -337,7 +337,7 @@ export const TeamData = [
 
   {
     id: 22,
-    year: 2,
+    year: 3,
     domain: 1,
     cardName: "Anushree Gupta",
     cardDesignation: "Web Development",
@@ -351,7 +351,7 @@ export const TeamData = [
   },
   {
     id: 23,
-    year: 2,
+    year: 3,
     domain: 3,
     cardName: "Apra Jain",
     cardDesignation: "App Development",
@@ -366,7 +366,7 @@ export const TeamData = [
 
   {
     id: 24,
-    year: 2,
+    year: 3,
     domain: 3,
     cardName: "Arpit Chauhan",
     cardDesignation: "App Development",
@@ -380,7 +380,7 @@ export const TeamData = [
   },
   {
     id: 25,
-    year: 2,
+    year: 3,
     domain: 2,
     cardName: "Malay Joshi",
     cardDesignation: "Machine Learning",
@@ -395,7 +395,7 @@ export const TeamData = [
 
   {
     id: 26,
-    year: 2,
+    year: 3,
     domain: 1,
     cardName: "Manish Dixit",
     cardDesignation: "Web Development",
@@ -410,7 +410,7 @@ export const TeamData = [
 
   {
     id: 27,
-    year: 2,
+    year: 3,
     domain: 3,
     cardName: "Manish Kumar",
     cardDesignation: "App Development",
@@ -424,7 +424,7 @@ export const TeamData = [
   },
   {
     id: 28,
-    year: 2,
+    year: 3,
     domain: 2,
     cardName: "Manya Chaudhary",
     cardDesignation: "Machine Learning",
@@ -439,7 +439,7 @@ export const TeamData = [
 
   {
     id: 29,
-    year: 2,
+    year: 3,
     domain: 1,
     cardName: "Preeti Jaiswal",
     cardDesignation: "Web Development",
@@ -454,7 +454,7 @@ export const TeamData = [
 
   {
     id: 30,
-    year: 2,
+    year: 3,
     domain: 4,
     cardName: "Shivani Khare",
     cardDesignation: "Managerial",
@@ -469,7 +469,7 @@ export const TeamData = [
 
   {
     id: 31,
-    year: 2,
+    year: 3,
     domain: 2,
     cardName: "Shreyanshi Singh",
     cardDesignation: "Machine Learning",
@@ -484,7 +484,7 @@ export const TeamData = [
 
   {
     id: 32,
-    year: 2,
+    year: 3,
     domain: 4,
     cardName: "Shubhangi Shukla",
     cardDesignation: "Managerial",
@@ -499,7 +499,7 @@ export const TeamData = [
 
   {
     id: 33,
-    year: 2,
+    year: 3,
     domain: 1,
     cardName: "Sudheer Singh",
     cardDesignation: "Web Development",
@@ -513,7 +513,7 @@ export const TeamData = [
   },
   {
     id: 34,
-    year: 2,
+    year: 3,
     domain: 4,
     cardName: "Vibhuti Agarwal",
     cardDesignation: "Managerial",
