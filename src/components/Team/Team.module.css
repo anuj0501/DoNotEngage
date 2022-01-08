@@ -31,3 +31,50 @@
 .alumniBtn:active {
   transform: translateY(0px);
 }
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+
+  .alumniBtn {
+    margin-left: 42%;
+  }
+
+}
+
+@media only screen
+and (min-width : 425px)
+and (max-width : 768px) {
+
+  .alumniBtn {
+    margin-left: 39%;
+  }
+  
+}
+
+@media only screen
+and (max-width : 426px) {
+
+  .alumniBtn {
+    margin-left: 31%;
+  }
+  
+}
+
+@media only screen
+and (max-width : 376px) {
+
+  .alumniBtn {
+    margin-left: 29%;
+  }
+  
+}
+
+@media only screen
+and (max-width : 321px) {
+
+  .alumniBtn {
+    margin-left: 27%;
+  }
+  
+}
