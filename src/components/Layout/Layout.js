@@ -16,6 +16,8 @@ import Team from "../Team/Team";
 import Projects from "../Projects/Projects";
 import Blog from "../Blog/Blog";
 import ScrollToTop from "../../ScrollToTop";
+import EmailVerify from "../EmailVerify/EmailVerify";
+import Otp from "../OTP/otp";
 // import Footer from "../UI/Footer/Footer";
 
 class Layout extends Component {
@@ -108,6 +110,14 @@ class Layout extends Component {
                     />
                     <Route
                       path="/register"
+                      component={() => <EmailVerify theme={this.state.theme} />}
+                    />
+                    <Route
+                      path="/otp"
+                      component={() => <Otp theme={this.state.theme} />}
+                    />
+                    <Route
+                      path="/details"
                       component={() => <Contact theme={this.state.theme} />}
                     />
                   </Switch>
