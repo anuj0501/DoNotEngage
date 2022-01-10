@@ -7,7 +7,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 var check ;
-var mail;
 
 app.post("/register", async(req, res) => {
     try{  
@@ -16,7 +15,6 @@ app.post("/register", async(req, res) => {
         console.log(res1);
         // console.log(res1.mail);
         // console.log(res1.OTP);
-        mail=res1.mail;
         check = res1.OTP;
         if(res1.status === 200)
             res.redirect("/otp")

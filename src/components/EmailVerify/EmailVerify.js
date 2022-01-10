@@ -3,7 +3,7 @@ import './EmailVerify.css';
 
 const EmailVerify = () => {
     return (
-        <div>
+        <div className='verify'>
             <form method="POST">
                 <div class="form-body">
                     <div class="row">
@@ -12,15 +12,15 @@ const EmailVerify = () => {
                                 <div class="form-items">
                                     <h3>Register Today</h3>
                                     <p>Fill in the data below.</p>           
-                                        <div class="col-md-12">
+                                    <div class="col-md-12">
                                         <input class="form-control" type="text" name="name" placeholder="Full Name" required/>
-                                        </div>            
-                                        <div class="col-md-12">
-                                            <input class="form-control" type="email" name="email" placeholder="E-mail Address" required />
-                                        </div>            
+                                    </div>            
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="email" name="email" placeholder="E-mail Address" required />
+                                    </div>     <br/>       
                                     <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required/>
-                                    <label class="form-check-label">I confirm that all data are correct</label>
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required/>
+                                        <label class="form-check-label">I confirm that all data are correct</label>
                                     </div>
                                     <div class="form-button mt-3">
                                         <button id="submit" type="submit" class="bts">Validate</button>

@@ -1,5 +1,6 @@
-form{
-    margin-left: 25vw;
+.verify{
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .bts {
   background-color: white;
@@ -22,7 +23,6 @@ form{
 }
 .mt-3{
     border-radius: 5px;
-    margin-top: 1rem!important;
     display: inline-block;
 }
 .form-holder {
@@ -32,28 +32,23 @@ form{
     align-items: center;
     text-align: center;
     min-height: 100vh;
+    min-width: 30%;
 }
 
 .form-holder .form-content {
     position: relative;
     text-align: center;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
     -webkit-justify-content: center;
     justify-content: center;
-    -webkit-align-items: center;
     align-items: center;
-    padding: 60px;
 }
 
 .form-content .form-items {
+    display: flex;
     padding: 40px;
     display: inline-block;
     width: 100%;
-    min-width: 540px;
+    min-width: 300px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
