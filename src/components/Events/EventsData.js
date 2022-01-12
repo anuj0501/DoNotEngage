@@ -6,8 +6,18 @@ import hackfest2 from "../../assets/images/Events/hackfest2.jpg";
 import hackfest3 from "../../assets/images/Events/hackfest3.jpg";
 import androidStudyJams from "../../assets/images/Events/ASJ.jpg";
 import mlEvent from "../../assets/images/Events/mlevent.jpg";
+import webEvent from "../../assets/images/Events/webevent.png";
 
 export const EventsData = [
+  {
+    id: 8,
+    cardTitle: "Flutter with DASH",
+    cardSubtitle: "4 Dec 2021 - 5 Dec 2021",
+    cardText:"We are here with yet another knowledge and fun-filled workshop for all of you, on app development, 'Flutter with Dash'.Here's your chance to build beautiful native apps on iOS and Android from a single code base!.",
+    cardHref:
+      "https://gdsc.community.dev/events/details/developer-student-clubs-ajay-kumar-garg-engineering-college-ghaziabad-presents-flutter-with-dash/",
+    eventImg: webEvent,
+  },
   {
     id: 7,
     cardTitle: "ML Workshop",
