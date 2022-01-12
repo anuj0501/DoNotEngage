@@ -13,6 +13,7 @@ import Home from "../Home/Home";
 import Events from "../Events/Events";
 import Contact from "../Contact/Contact";
 import Team from "../Team/Team";
+import Alumni from '../Team/Alumni/Alumni'
 import Projects from "../Projects/Projects";
 import Blog from "../Blog/Blog";
 import ScrollToTop from "../../ScrollToTop";
@@ -107,6 +108,10 @@ class Layout extends Component {
                     <Route
                       path="/team"
                       component={() => <Team theme={this.state.theme} />}
+                    />
+                    <Route
+                      path="/alumni"
+                      component={() => <Alumni theme={this.state.theme} />}
                     />
                     <Route
                       path="/register"

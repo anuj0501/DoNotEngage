@@ -18,8 +18,9 @@
 }
 
 .alumniBatchHeader {
-  font-weight: 600;
-  padding: 3rem;
+  font-weight: 400;
+  /* padding: 1rem; */
+  font-size: 1.5rem;
 }
 
 .section {

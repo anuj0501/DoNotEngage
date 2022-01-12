@@ -8,8 +8,8 @@ import classesDark from "./TeamDark.module.css";
 //import Component
 import ShowcaseTeam from "./ShowcaseTeam/ShowcaseTeam";
 import TeamList from "./TeamList/TeamList";
-import AlumniList from "./Alumni/AlumniList/AlumniList";
 import Footer from "../UI/Footer/Footer";
+import { Link } from "react-router-dom";
 
 class Team extends React.Component {
   // componentDidMount() {
@@ -69,10 +69,11 @@ class Team extends React.Component {
           />
         </Helmet>
 
+
         <ShowcaseTeam theme={this.props.theme} />
         <TeamList theme={this.props.theme} />
-        <AlumniList theme={this.props.theme} />
-        <Footer theme={this.props.theme} />
+        <Link to="/alumni" className={styles.alumniBtn} >Meet The Alumni</Link>
+        <Footer theme={this.props.theme} style={{ position: "absolute"}}/>
       </div>
     );
   }
