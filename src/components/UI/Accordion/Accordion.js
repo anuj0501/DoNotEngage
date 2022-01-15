@@ -38,10 +38,10 @@ const Accordion = (props) => {
     return null;
   });
   return (
-    <div className={classes.accordion}>
-      <div className={classes.header} onClick={() => setIsOpen(!isOpen)}>
-        <h2>Demo Accordion</h2>
-        <div className={classes.icon}>
+    <div className={styles.accordion}>
+      <div className={styles.header} onClick={() => setIsOpen(!isOpen)}>
+        <h2 className={styles.heading}>Demo Accordion</h2>
+        <div className={styles.icon}>
           {isOpen ? (
             <i className="fas fa-chevron-up"></i>
           ) : (

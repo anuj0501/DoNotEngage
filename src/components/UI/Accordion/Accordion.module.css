@@ -3,7 +3,6 @@
   margin: 0 auto 50px;
   padding: 1rem;
   font-family: "Google Sans", sans-serif;
-  /* border: 1px solid black; */
   border-radius: 5px;
   box-shadow: 1px 8px 20px -10px #757575;
 }
@@ -13,9 +12,9 @@
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .listContainer {
