@@ -4,7 +4,7 @@
   padding: 1rem;
   font-family: "Google Sans", sans-serif;
   border-radius: 5px;
-  box-shadow: 1px 8px 20px -10px #757575;
+  box-shadow: 1px 0px 20px -10px #757575;
 }
 
 .accordion:hover {
