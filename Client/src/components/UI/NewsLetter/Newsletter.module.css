@@ -95,6 +95,14 @@
   transition: 0.3s;
 }
 
+.errorEmail {
+  position: absolute;
+  margin-top: 13rem;
+  margin-left: 1rem;
+  font-size: 14px;
+  color: red;
+}
+
 @media (max-width: 1024px) {
     /* .formArea > p {
             padding-left: 180px;
@@ -203,6 +211,11 @@
     .mainSection > button {
       top: -2.5px;
     }
+
+    .errorEmail {
+      margin-top: 11.5rem; 
+      margin-left: 100px;
+    }
   }
   
   @media (max-width: 399px) {
@@ -225,6 +238,10 @@
       margin-left: -120px;
       height: 40px;
     }
+    .errorEmail {
+      margin-top: 11rem; 
+      margin-left: 90px;
+    }
   }
   
   @media (max-width: 350px) {
@@ -243,6 +260,10 @@
     .mainSection > input {
       width: 90%;
       padding-right: 20px;
+    }
+    .errorEmail {
+      margin-top: 12rem; 
+      margin-left: 95px;
     }
   }
   

@@ -99,154 +99,175 @@
   box-shadow: -4px 4px 8px var(--button-shadow-color);
   transition: 0.3s;
 }
+.errorEmail {
+  position: absolute;
+  margin-top: 13rem;
+  margin-left: 1rem;
+  font-size: 14px;
+  color: red;
+}
 
 @media (max-width: 1024px) {
-  /* .formArea > p {
-          padding-left: 180px;
-      } */
+    /* .formArea > p {
+            padding-left: 180px;
+        } */
+  
+    .mainSection > button {
+      font-size: 16px;
+    }
+  
+    .container > img {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 924px) {
+    .formArea > h2 {
+      font-size: 32px;
+    }
+  
+    .formArea > p {
+      left: 100px;
+    }
+  
+    .container > img {
+      height: 250px;
+    }
+  
+    .mainSection > input {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 824px) {
+    .mainSection > button {
+      font-size: 12px;
+      margin-left: -140px;
+      top: -2px;
+    }
+  
+    .mainSection > input {
+      width: 100%;
+    }
+    .mainSection {
+      padding-top: 0;
+    }
+  }
+  
+  @media (max-width: 785px) {
+    .formArea > p {
+      left: 90px;
+    }
+  
+    .container > img {
+      height: 200px;
+    }
+  
+    .mainSection > button {
+      font-size: 14px;
+      margin-left: -150px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .container > img {
+      height: 160px;
+      width: 260px;
+      align-self: center;
+    }
+    .mainSection > input {
+      height: 60px;
+      width: 100%;
+    }
+  
+    .mainSection > button {
+      font-size: 13px;
+      margin-left: -130px;
+      right: 5px;
+    }
+  }
+  
+  @media (max-width: 599px) {
+    .container {
+      min-height: 350px;
+    }
+    .container > img {
+      display: none;
+    }
+    .formArea {
+      align-items: center;
+    }
+  
+    .formArea > h2 {
+      font-size: 38px;
+    }
+    .formArea > p {
+      left: 0;
+    }
+    .mainSection {
+      position: relative;
+      left: 25px;
+      width: fit-content;
+    }
+    .mainSection > input {
+      width: 90%;
+    }
+    .mainSection > button {
+      top: -2.5px;
+    }
 
-  .mainSection > button {
-    font-size: 16px;
+    .errorEmail {
+      margin-top: 11.5rem; 
+      margin-left: 100px;
+    }
   }
-
-  .container > img {
-    height: 300px;
+  
+  @media (max-width: 399px) {
+    .formArea > h2 {
+      font-size: 28px;
+    }
+    .formArea > p {
+      left: 0;
+      font-size: 12px;
+    }
+    .mainSection {
+      left: 24px;
+    }
+    .mainSection > input {
+      width: 90%;
+      padding-right: 110px;
+    }
+    .mainSection > button {
+      font-size: 10px;
+      margin-left: -120px;
+      height: 40px;
+    }
+    .errorEmail {
+      margin-top: 11rem; 
+      margin-left: 90px;
+    }
   }
-}
-
-@media (max-width: 924px) {
-  .formArea > h2 {
-    font-size: 32px;
+  
+  @media (max-width: 350px) {
+    .container {
+      padding-left: 0;
+    }
+    .mainSection {
+      top: -10px;
+      left: 18px;
+    }
+    .mainSection > button {
+      font-size: 12px;
+      margin-left: 5rem;
+      height: 40px;
+    }
+    .mainSection > input {
+      width: 90%;
+      padding-right: 20px;
+    }
+    .errorEmail {
+      margin-top: 12rem; 
+      margin-left: 95px;
+    }
   }
-
-  .formArea > p {
-    left: 100px;
-  }
-
-  .container > img {
-    height: 250px;
-  }
-
-  .mainSection > input {
-    width: 100%;
-  }
-}
-
-@media (max-width: 824px) {
-  .mainSection > button {
-    font-size: 12px;
-    margin-left: -140px;
-    top: -2px;
-  }
-
-  .mainSection > input {
-    width: 100%;
-  }
-  .mainSection {
-    padding-top: 0;
-  }
-}
-
-@media (max-width: 785px) {
-  .formArea > p {
-    left: 90px;
-  }
-
-  .container > img {
-    height: 200px;
-  }
-
-  .mainSection > button {
-    font-size: 14px;
-    margin-left: -150px;
-  }
-}
-
-@media (max-width: 700px) {
-  .container > img {
-    height: 160px;
-    width: 260px;
-    align-self: center;
-  }
-  .mainSection > input {
-    height: 60px;
-    width: 100%;
-  }
-
-  .mainSection > button {
-    font-size: 13px;
-    margin-left: -130px;
-    right: 5px;
-  }
-}
-
-@media (max-width: 599px) {
-  .container {
-    min-height: 350px;
-  }
-  .container > img {
-    display: none;
-  }
-  .formArea {
-    align-items: center;
-  }
-
-  .formArea > h2 {
-    font-size: 38px;
-  }
-  .formArea > p {
-    left: 0;
-  }
-  .mainSection {
-    position: relative;
-    left: 25px;
-    width: fit-content;
-  }
-  .mainSection > input {
-    width: 90%;
-  }
-  .mainSection > button {
-    top: -2.5px;
-  }
-}
-
-@media (max-width: 399px) {
-  .formArea > h2 {
-    font-size: 28px;
-  }
-  .formArea > p {
-    left: 0;
-    font-size: 12px;
-  }
-  .mainSection {
-    left: 24px;
-  }
-  .mainSection > input {
-    width: 90%;
-    padding-right: 110px;
-  }
-  .mainSection > button {
-    font-size: 10px;
-    margin-left: -120px;
-    height: 40px;
-  }
-}
-
-@media (max-width: 350px) {
-  .container {
-    padding-left: 0;
-  }
-  .mainSection {
-    top: -10px;
-    left: 18px;
-  }
-  .mainSection > button {
-    font-size: 12px;
-    margin-left: 5rem;
-    height: 40px;
-  }
-  .mainSection > input {
-    width: 90%;
-    padding-right: 20px;
-  }
-}
+  
