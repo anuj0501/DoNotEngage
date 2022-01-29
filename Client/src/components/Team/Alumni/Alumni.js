@@ -7,7 +7,7 @@ import classesDark from "./AlumniDark.module.css";
 
 //import Component
 import ShowcaseAlumni from "./ShowcaseAlumni/ShowcaseAlumni";
-import Accordion from "../../UI/Accordion/Accordion";
+// import Accordion from "../../UI/Accordion/Accordion";
 
 import AlumniList from "./AlumniList/AlumniList";
 import Footer from "../../UI/Footer/Footer";
@@ -77,7 +77,7 @@ class Alumni extends React.Component {
 
         <ShowcaseAlumni theme={this.props.theme} />
         <AlumniList theme={this.props.theme} />
-        <Accordion theme={this.props.theme} />
+        {/* <Accordion theme={this.props.theme} /> */}
         <Footer theme={this.props.theme} />
       </div>
     );

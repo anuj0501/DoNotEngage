@@ -47,14 +47,14 @@
   font-weight: 400;
   color: #202124;
   font-family: "Google Sans", sans-serif;
-  padding: 5rem;
+  padding: 1rem;
   position: relative;
   transition: 0.2s;
 }
 
 .Domains .card {
   display: flex;
-  padding: 5rem 1rem 5rem 1rem;
+  padding: 3rem 1rem 3rem 1rem;
   transition: 0.2s;
 }
 
