@@ -9,6 +9,7 @@ import ShowcaseHome from "./ShowcaseHome/ShowcaseHome";
 import AboutHome from "./AboutHome/AboutHome";
 import EventsHome from "./EventsHome/EventsHome";
 import ProjectsHome from "./ProjectsHome/ProjectsHome";
+import Newsletter from '../UI/NewsLetter/Newsletter';
 // import BlogHome from "./BlogHome/BlogHome";
 import TeamHome from "./TeamHome/TeamHome";
 import Footer from "../UI/Footer/Footer";
@@ -81,6 +82,7 @@ class Home extends Component {
         <ProjectsHome theme={this.props.theme} />
         {/* <BlogHome theme={this.props.theme} /> */}
         <TeamHome theme={this.props.theme} />
+        <Newsletter theme={this.props.theme} />
         <MapComponent theme={this.props.theme} />
         <Footer theme={this.props.theme} />
       </div>
